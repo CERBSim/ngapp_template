@@ -1,0 +1,5 @@
+{
+    "module_name" : "demo_app",
+    "app_title" : "Demo Application",
+    "app_class" : "DemoApp"
+}
