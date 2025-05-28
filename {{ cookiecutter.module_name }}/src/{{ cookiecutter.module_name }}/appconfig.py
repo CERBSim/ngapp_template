@@ -1,4 +1,4 @@
-from webapp_client import AppAccessConfig, AppConfig
+from ngapp import AppAccessConfig, AppConfig
 from . import __version__, {{ cookiecutter.app_class }}
 
 _DESCRIPTION = "App descrition shown in preview"

@@ -1,4 +1,4 @@
-from webapp_client.cli.serve_standalone import main as startup
+from ngapp.cli.serve_standalone import main as startup
 
 def main():
     startup(app_module="{{ cookiecutter.module_name }}.appconfig")
