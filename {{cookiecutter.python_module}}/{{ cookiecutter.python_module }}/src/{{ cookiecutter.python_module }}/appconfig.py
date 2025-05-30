@@ -1,12 +1,12 @@
 from ngapp import AppAccessConfig, AppConfig
-from . import __version__, {{ cookiecutter.app_class }}
+from . import __version__, {{ cookiecutter.python_class }}
 
 _DESCRIPTION = "App descrition shown in preview"
 
 config = AppConfig(
     name="{{ cookiecutter.app_title }}",
     version = __version__,
-    python_class={{ cookiecutter.app_class }},
+    python_class={{ cookiecutter.python_class }},
     frontend_pip_dependencies=[],
     frontend_dependencies=[],
     description=_DESCRIPTION,

@@ -1,7 +1,7 @@
 from ngapp.app import App
 from ngapp.components import *
 
-class {{ cookiecutter.app_class }}(App):
+class {{ cookiecutter.python_class }}(App):
     def __init__(self, *args, **kwargs):
         super().__init__(*args, **kwargs)
         self.title = Heading("{{ cookiecutter.app_title }}")

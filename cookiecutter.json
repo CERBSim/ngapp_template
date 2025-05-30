@@ -1,6 +1,5 @@
 {
   "app_title": "Demo App",
-  "project_slug": "{{ cookiecutter.project_slug.lower().replace(' ', '_') }}",
-  "module_name": "{{ cookiecutter.project_slug }}",
-  "app_class": "{{ cookiecutter.app_title.replace(' ', '') }}"
+  "python_module": "{{ cookiecutter.app_title.lower().replace(' ', '_') }}",
+  "python_class": "{{ cookiecutter.app_title.replace(' ', '') }}"
 }
